@@ -1,0 +1,42 @@
+button {
+  color: white;
+  background-color: rgb(134, 76, 0);
+  border: none;
+}
+body {
+  background-color: burlywood;
+  text-align: center;
+}
+.box {
+  /* border: 2px solid red; */
+  color: rgb(134, 76, 0);
+  background-color: antiquewhite;
+  display: flex;
+  border-radius: 20px;
+  margin: auto;
+  /* padding: 20px; */
+  text-align: center;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  max-width: 400px;
+  margin-top: 150px;
+  /* font-size: 30px; */
+  font-family: sans-serif;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.3), 0 17px 50px 0 rgba(0, 0, 0, 0.3);
+}
+.box2 {
+  text-align: left;
+  display: inline-block;
+  
+}
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+hr{
+  height:2px;border-width:0;
+  color:burlywood;
+  background-color:burlywood
+}

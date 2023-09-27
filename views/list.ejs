@@ -1,0 +1,29 @@
+<%- include('header'); -%>  
+<body>
+    <div class="box">
+    <h1><hr>Hello it's a <%=myDay%>! <hr></h1> 
+    <h2>Food Menu Today</h2>
+    <ul> <span class="box2">
+        <!-- added for loops -->
+        <li>Tapsilog </li>
+        <li>Tortang Talong</li>
+        <li>Pork Sisig</li>
+        <!-- <li><%=addedItem%></li> -->
+         <% for (let i=0; i<addedItem.length; i++){  %> 
+        <li> <%= addedItem [i] %></li>
+        <% } %>
+    </ul>
+</span>
+    <form action="" method="post">
+        <input type="text" name="addItem">
+        <button type="submit" name="button">submit</button>
+    </form>
+    </div>
+    <!-- we added for loops so that when user input another, a new list will appear
+         <% for (let i=0; i<addedItem.length; i++){ %> 
+        <li> <%= addedItem [i] %></li>
+        <% } %> -->
+        <%- include('footer'); -%> 
+
+
+<!-- EJS is just incorporating JS in your HTML -->
